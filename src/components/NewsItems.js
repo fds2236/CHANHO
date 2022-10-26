@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 const NewsItemBlock = styled.div`
 display: flex;
 margin-top:  3em;
@@ -56,8 +57,6 @@ const NewsItem = ({article}) => {
                 <p>{description}</p>
                 <p>{source.name}</p>
                 <p>{author}</p>
-
-
             </div>
         </NewsItemBlock>
     )
